@@ -16,6 +16,7 @@ public class ConstructorTest {
 	public static void main(String[] args) {
 		Data1 data1 = new Data1();
 		Data2 data2 = new Data2(10);
+		System.out.println(data1 + " " + data2);
 			//default compiler is not created.
 	}
 }

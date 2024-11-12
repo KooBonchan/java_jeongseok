@@ -12,6 +12,7 @@ public class calc {
 			System.out.print("y: "); y = scanner.nextInt();
 		} catch(InputMismatchException e) {
 			System.out.println("Not an Integer");
+			scanner.close();
 			return;
 		}
 		

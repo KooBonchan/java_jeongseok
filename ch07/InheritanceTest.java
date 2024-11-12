@@ -35,5 +35,7 @@ public class InheritanceTest {
 		captionTv.displayCaption("Caption False");
 		captionTv.caption = true;
 		captionTv.displayCaption("Caption True");
+		String t = captionTv.toString();
+		System.out.println(t);
 	}
 }
